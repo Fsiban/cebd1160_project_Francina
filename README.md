@@ -46,8 +46,8 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 Brief (2 paragraph) description about your results. Include:
 
 - At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
+- At least 1 "value" that summarizes either your data or the "performance" of your method (classification - show the F1 score)
+- A short explanation of both of the above  9if you solved the project or not and what you could have done to makeit better)
 
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
