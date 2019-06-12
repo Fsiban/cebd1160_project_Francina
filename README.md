@@ -3,7 +3,7 @@ Instructions and template for final projects.
 
 | Name | Date |
 |:-------|:---------------|
-|Your name here | Completion date|
+|Francina Sibanda| 14 June 2019|
 
 -----
 
@@ -20,6 +20,8 @@ Your repository should include the following:
 ## Research Question
 
 1 sentence description of your research question.
+Which features values distinctly indicate a malignant diagnosis. 
+
 
 ### Abstract
 
@@ -29,6 +31,23 @@ Your repository should include the following:
 - challenge (what is the "problem" we could solve with this dataset)
 - action (how will we try to solve this problem/answer this question)
 - resolution (what did we end up producing)
+
+
+To understand how each feature differs in a malignant compared to benign in reading, I used a scatter plot.
+By comparing the values of each of the main features with a malignant and Benign diagnosis to understand the feature reading for each diagnosis, I was able to determine which feature values distinctly indicate a malignant diagnosis.
+
+The ten main features that were compared to the Diagnosis are listed below:
+
+Radius
+Texture
+Perimeter
+Area
+Smoothness
+Compactness
+Concavity
+Concave_Points
+Symmetry
+Fractal_Dimension
 
 ### Introduction
 
