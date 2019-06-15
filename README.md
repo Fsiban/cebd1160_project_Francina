@@ -20,7 +20,7 @@ Your repository should include the following:
 ## Research Question
 
 1 sentence description of your research question.
-Which features values distinctly indicate a malignant diagnosis. 
+Which feature values distinctly indicate a malignant diagnosis. 
 
 
 ### Abstract
