@@ -79,7 +79,7 @@ KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  
 KNeighbours ShuffleSplit val_score:[0.94736842 0.94736842 0.87719298 0.94736842 0.92982456]
 
 
-you can remove the ones with the lowest coefifient to keep the ones that have higher one to remove the noise.
+you can remove the ones with the lowest coefifient to keep the ones that have higher one to remove the noise..
 ### References
 All of the links
 
