@@ -20,7 +20,7 @@ Your repository should include the following:
 ## Research Question
 
 1 sentence description of your research question.
-Which feature values distinctly indicate a malignant diagnosis. 
+- Which feature values distinctly indicate a malignant diagnosis. 
 
 
 ### Abstract
@@ -33,7 +33,7 @@ Which feature values distinctly indicate a malignant diagnosis.
 - resolution (what did we end up producing)
 
 
-To understand how each feature differs in a malignant compared to benign in reading, I used a scatter plot.
+To understand how each feature differs in a malignant compared to benign in reading. Using the breast cancer dataset form sklearn, i first generated a pairplot  I used a scatter plot.
 By comparing the values of each of the main features with a malignant and Benign diagnosis to understand the feature reading for each diagnosis, I was able to determine which feature values distinctly indicate a malignant diagnosis.
 
 The ten main features that were compared to the Diagnosis are listed below:
