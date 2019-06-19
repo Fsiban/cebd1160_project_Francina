@@ -33,8 +33,7 @@ Your repository should include the following:
 - resolution (what did we end up producing)
 
 
-To answer the research question i needed to understand the characteristics of each feature based and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset form sklearn, used the seaborn pairplot to visualise the and identified intersting correlations.
-By comparing the values of each of the main features with a malignant and Benign diagnosis to understand the feature reading for each diagnosis, I was able to determine which feature values distinctly indicate a malignant diagnosis.
+To answer the research question i needed to understand the characteristics of each feature based and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset form sklearn, used the pairplot to visualise the data and identified positive correlations. By comparing the values of each of the main features with a malignant and Benign diagnosis to understand the feature reading for each diagnosis, I woul be able to determine which feature values distinctly indicate a malignant diagnosis.  
 
 The mean of the ten main features were compared to the Diagnosis are listed below:
 
@@ -91,11 +90,10 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
 
-- To understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I used decided to perform exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation. I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
+- I determined that this is a clasification problend and i would need to use logistic regression classifier because i have two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I used decided to perform exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.
 
-I performed the steps below:
+I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
 
-- I imported the data from sklearn 
 
 
 ### Results
@@ -105,6 +103,11 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method (classification - show the F1 score)
 - A short explanation of both of the above  9if you solved the project or not and what you could have done to makeit better)
+
+I performed the steps below:
+
+- I imported the data from sklearn 
+
 
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
