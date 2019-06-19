@@ -121,9 +121,8 @@ you can remove the ones with the lowest coefifient to keep the ones that have hi
 ### References
 All of the links
 
-Sources:
-https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
-https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
+Source1:https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
+Source2:https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
 
 
 -------
