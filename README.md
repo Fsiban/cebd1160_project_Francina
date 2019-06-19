@@ -106,7 +106,8 @@ I performed the steps below:
 - Train the K-Neigbours
 - Evaluate the K-Neighbours model by looking at the generated results after running the model.
 
-
+Good step by step:
+https://medium.com/@kbrook10/day-10-machine-learning-using-logisticregression-with-scikit-learn-99316e6589cd
 
 ### Results
 
