@@ -90,12 +90,23 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
 
-- I determined that this is a clasification problend and i would need to use logistic regression classifier because i have two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I used decided to perform exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.
+I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I used decided to perform exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
 
-I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
+I performed the steps below:
 
-Good step by step:
-https://medium.com/@kbrook10/day-10-machine-learning-using-logisticregression-with-scikit-learn-99316e6589cd
+- Imported the dataset from sklearn library
+- Imported other necessarry libraries (Matplotlib,Numpy,Pandas,Seaborn)
+- Exploratory analysis 
+   - Used the describe function to have a look at the description of the dataset
+   - Dropped the features for the standard error and the worst so that that I could use the mean values to generate the pairplot)
+- Train the logistic regression model
+   - Split the data into a training and test set
+   - Create and Train the Model
+- Evaluate the Logistic regression model by looking at the generated results after running the model.
+- Train the K-Neigbours
+- Evaluate the K-Neighbours model by looking at the generated results after running the model.
+
+
 
 ### Results
 
@@ -105,7 +116,7 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 "value" that summarizes either your data or the "performance" of your method (classification - show the F1 score)
 - A short explanation of both of the above  9if you solved the project or not and what you could have done to makeit better)
 
-I performed the steps below:
+The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.
 
 - I imported the data from sklearn 
 
