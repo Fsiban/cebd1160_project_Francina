@@ -54,29 +54,15 @@ Fractal_Dimension
 Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
 
 
-Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. Our dataset consists of 569 observations and 32 variables. There is an ID variable, a diagnosis variable revealing if they were benign or malignant, and 30 measurement variables detailing the size and shape of the cell nuclei. The diagnosis, a categorical variable, is our response variable and the 30 measurement variables, all of which are continuous, are our potential explanatory variables for our model. The 30 measurement variables are actually only 10 different features of the nucleus, but with 3 different measurements of each; the mean, the standard error and the ‘worst’ or largest (mean of the three largest values). The 10 features included are:
-
-radius - mean of distances from center to points on the perimeter
-texture - standard deviation of gray-scale values
-perimeter
-area
-smoothness - local variation in radius lengths
-compactness - perimeter^2 / area - 1.0
-concavity - severity of concave portions of the contour
-concave points - number of concave portions of the contour
-symmetry
-fractal dimension - “coastline approximation” - 1
-
-Source:https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
-
+The detailed decription of the dataset is from Kaggle and Slearn website.
+The data set is from the sklearn website, the features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. The sample size is 569 and there are 32 variables. The 32 variables comprise of an ID variable, a diagnosis variable indicating a benign or malignant, and 30 measurement variables detailing the size and shape of the cell nuclei. The diagnosis, a categorical variable, is our response variable and the 30 measurement variables, all of which are continuous, are our potential explanatory variables for our model. The 30 measurement variables are actually only 10 different features of the nucleus, but with 3 different measurements of each; the mean, the standard error and the ‘worst’ or largest (mean of the three largest values). The 10 features included are indicated below:
 
 Data Set Characteristics:
 Number of Instances:
- 	
-569
+ 	569
 Number of Attributes:
- 	
-30 numeric, predictive attributes and the class
+ 	30 numeric, predictive attributes and the class
+
 Attribute Information:
  	
 radius (mean of distances from center to points on the perimeter)
@@ -94,7 +80,9 @@ class:
 WDBC-Malignant
 WDBC-Benign
 
-
+Sources:
+https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
+https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
 
 ### Methods
 
@@ -102,6 +90,11 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
+
+- To understand the how the attributes of the features relate to each other, I used decided to perform exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.
+- I identified that the mean radius has a positive correlation with the area and perimeter.
+- To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model.
+- The I developed a model to train the 
 
 ### Results
 
@@ -123,7 +116,14 @@ KNeighbours ShuffleSplit val_score:[0.94736842 0.94736842 0.87719298 0.94736842 
 
 
 you can remove the ones with the lowest coefifient to keep the ones that have higher one to remove the noise..
+
+
 ### References
 All of the links
+
+Sources:
+https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
+https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
+
 
 -------
